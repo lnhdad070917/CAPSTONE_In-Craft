@@ -1,0 +1,13 @@
+{
+  "botol": {
+    "name": "Botol Plastik",
+    "category": "Plastik",
+    "ss": "Informasi lainnya tentang botol..."
+  },
+  "sendok": {
+    "name": "Sendok Stainless",
+    "category": "Logam",
+    "ss": "Informasi lainnya tentang sendok..."
+  },
+  "Data lain lain": {}
+}
