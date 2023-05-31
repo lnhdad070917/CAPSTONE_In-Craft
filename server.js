@@ -1,9 +1,8 @@
 const express = require("express");
 const admin = require("firebase-admin");
-const formidable = require("formidable");
-const fs = require("fs");
 const serviceAccount = require("./serviceAccountKey.json");
 const multer = require("multer");
+const { spawn } = require("child_process");
 
 // Inisialisasi Firebase
 admin.initializeApp({
@@ -15,7 +14,7 @@ admin.initializeApp({
 
 const app = express();
 const db = admin.firestore();
-// const bucket = admin.storage().bucket();
+const bucket = admin.storage().bucket();
 
 // Middleware untuk mem-parse body permintaan
 app.use(express.json());
@@ -25,14 +24,13 @@ app.use(express.urlencoded({ extended: true }));
 const storage = multer.memoryStorage();
 const upload = multer({ storage: storage });
 
-// Endpoint untuk mengunggah foto ke Firebase Storage dan menyimpan tautan di Firestore
+// Endpoint untuk mengunggah foto ke Firebase Storage dan mendapatkan prediksi
 app.post("/upload", upload.single("image"), async (req, res) => {
   try {
     if (!req.file) {
       return res.status(400).send("No file uploaded.");
     }
 
-    const bucket = admin.storage().bucket();
     const file = req.file;
     const filePath = `images/${file.originalname}`;
 
@@ -41,14 +39,86 @@ app.post("/upload", upload.single("image"), async (req, res) => {
       contentType: file.mimetype,
     });
 
+    // Dapatkan link yang ditandatangani dari Firebase Storage
+    const [signedUrl] = await bucket
+      .file(filePath)
+      .getSignedUrl({ action: "read", expires: "03-01-2500" });
+
     // Simpan link file ke Firestore
     const photoData = {
-      url: `https://storage.googleapis.com/${bucket.name}/${filePath}`,
+      url: signedUrl,
     };
     const docRef = await db.collection("file").add(photoData);
 
-    // Kirim response berisi ID dokumen baru
-    res.send({ id: docRef.id });
+    // Kirim link foto ke model untuk prediksi
+    const pythonProcess = spawn("python", ["model_loader.py", signedUrl]);
+
+    let prediction = "";
+    let errorOutput = "";
+
+    pythonProcess.stdout.on("data", (data) => {
+      // Data yang diterima dari skrip Python (hasil prediksi)
+      prediction += data.toString();
+    });
+
+    pythonProcess.stderr.on("data", (data) => {
+      // Kesalahan yang terjadi di skrip Python
+      errorOutput += data.toString();
+    });
+    // respon hanya presdiksi
+    // pythonProcess.on("close", (code) => {
+    //   // Skrip Python selesai dieksekusi
+    //   console.log(`Child process exited with code ${code}`);
+
+    //   if (code === 0) {
+    //     // Jika skrip Python berhasil dieksekusi tanpa kesalahan
+    //     prediction = prediction.replace(/\r?\n|\r/g, "");
+    //     res.setHeader("Content-Type", "application/json");
+    //     res.send({ prediction });
+    //   } else {
+    //     // Jika ada kesalahan dalam menjalankan skrip Python
+    //     res.status(500).json({ error: "Internal server error", errorOutput });
+    //   }
+    // });
+
+    //respon dengan data firestore database
+    pythonProcess.on("close", async (code) => {
+      // Skrip Python selesai dieksekusi
+      console.log(`Child process exited with code ${code}`);
+
+      if (code === 0) {
+        // Jika skrip Python berhasil dieksekusi tanpa kesalahan
+        prediction = prediction.replace(/\r?\n|\r/g, "");
+
+        // Mengambil data dari Firestore
+        const snapshot = await db.collection("Jenis").get();
+        const matchedData = [];
+
+        snapshot.forEach((doc) => {
+          const data = doc.data();
+          console.log(data);
+          if (data.jenis === prediction) {
+            matchedData.push({
+              id: doc.id,
+              jenis: data.jenis,
+              link: data.link,
+            });
+          }
+        });
+
+        if (matchedData.length === 0) {
+          // Jika tidak ada data yang cocok
+          res.status(404).json({ error: "Data not found" });
+        } else {
+          // Jika ada data yang cocok
+          res.setHeader("Content-Type", "application/json");
+          res.send(matchedData);
+        }
+      } else {
+        // Jika ada kesalahan dalam menjalankan skrip Python
+        res.status(500).json({ error: "Internal server error", errorOutput });
+      }
+    });
   } catch (error) {
     console.error("Error uploading file:", error);
     res.status(500).send("An error occurred while uploading the file.");
