@@ -3,6 +3,7 @@ const admin = require("firebase-admin");
 const serviceAccount = require("./serviceAccountKey.json");
 const multer = require("multer");
 const { spawn } = require("child_process");
+const sharp = require("sharp");
 
 // Inisialisasi Firebase
 admin.initializeApp({
@@ -24,6 +25,19 @@ app.use(express.urlencoded({ extended: true }));
 const storage = multer.memoryStorage();
 const upload = multer({ storage: storage });
 
+// Fungsi untuk melakukan kompresi gambar
+const compressImage = async (file) => {
+  const { buffer } = await sharp(file.buffer)
+    .resize({ width: 800 })
+    .jpeg({ quality: 80 })
+    .toBuffer();
+
+  // Konversi ArrayBuffer menjadi Buffer
+  const convertedBuffer = Buffer.from(buffer);
+
+  return convertedBuffer;
+};
+
 // Endpoint untuk mengunggah foto ke Firebase Storage dan mendapatkan prediksi
 app.post("/upload", upload.single("image"), async (req, res) => {
   try {
@@ -34,8 +48,17 @@ app.post("/upload", upload.single("image"), async (req, res) => {
     const file = req.file;
     const filePath = `images/${file.originalname}`;
 
+    // Kompresi gambar sebelum mengunggah ke Firebase Storage
+    const compressedImageBuffer = await compressImage(file);
+
+    // Belum melakukan kompress
+    // // Upload file ke Firebase Storage
+    // await bucket.file(filePath).save(file.buffer, {
+    //   contentType: file.mimetype,
+    // });
+
     // Upload file ke Firebase Storage
-    await bucket.file(filePath).save(file.buffer, {
+    await bucket.file(filePath).save(compressedImageBuffer, {
       contentType: file.mimetype,
     });
 
@@ -96,8 +119,8 @@ app.post("/upload", upload.single("image"), async (req, res) => {
 
         snapshot.forEach((doc) => {
           const data = doc.data();
-          console.log(data);
-          if (data.jenis === prediction) {
+          // console.log(data);
+          if (data.kelas === prediction) {
             matchedData.push({
               id: doc.id,
               jenis: data.jenis,
@@ -112,7 +135,7 @@ app.post("/upload", upload.single("image"), async (req, res) => {
         } else {
           // Jika ada data yang cocok
           res.setHeader("Content-Type", "application/json");
-          res.send(matchedData);
+          res.send({ imageUrl: signedUrl, matchedData });
         }
       } else {
         // Jika ada kesalahan dalam menjalankan skrip Python
@@ -134,6 +157,23 @@ app.get("/jenis", async (req, res) => {
       data.push({ id: doc.id, ...doc.data() });
     });
     return res.status(200).json(data);
+  } catch (error) {
+    console.error("Error while fetching data:", error);
+    return res.status(500).json({ error: "Failed to fetch data." });
+  }
+});
+
+app.get("/jenis/:id", async (req, res) => {
+  try {
+    const jenisId = req.params.id;
+    const doc = await db.collection("Jenis").doc(jenisId).get();
+
+    if (!doc.exists) {
+      return res.status(404).json({ error: "Jenis not found." });
+    }
+
+    const jenisData = { id: doc.id, ...doc.data() };
+    return res.status(200).json(jenisData);
   } catch (error) {
     console.error("Error while fetching data:", error);
     return res.status(500).json({ error: "Failed to fetch data." });
