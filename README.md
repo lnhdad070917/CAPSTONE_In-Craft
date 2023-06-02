@@ -29,9 +29,13 @@ ___
 node server.js
 ``` 
 The application will run on http://localhost:5000.
+
 2. Upload an image using the '**/upload**' endpoint with the '**POST**' method. You can use Postman or similar applications to send the request. Make sure you include the image as a file using the '**image**' key in form-data.
+
 3. The application will upload the image to Firebase Storage, compress the image, and perform prediction using the Python model.
+
 4. You can access the prediction results and image data through the '**/upload**' endpoint with the '**POST**' method. The prediction result will be sent in the response.
+
 5. You can also use other endpoints such as '**/jenis**' to get data from the "Jenis" collection in Firestore, or '**/jenis/:id**' to get specific jenis data based on the ID.
 
 ___
