@@ -6,26 +6,34 @@ ___
 ## Installation
 
 1. Clone this repository to your local machine: 
-```https://github.com/lnhdad070917/CAPSTONE_In-Craft.git```
+```
+https://github.com/lnhdad070917/CAPSTONE_In-Craft.git
+```
 2. Install the dependencies by running the following command:
-```npm install```
+```
+npm install
+```
 3. Make sure you have Node.js and npm installed on your computer.
-4. Obtain the service account key from Firebase and save it as `**serviceAccountKey.json**` in the root directory of the application.
-5. Make sure you have Python and pip installed on your computer.
-6. Install the Python dependencies by running the following command:
-```pip install -r requirements.txt```
+4. Obtain the service account key from Firebase and save it as '**serviceAccountKey.json**' in the root directory of the application.
+6. Make sure you have Python and pip installed on your computer.
+7. Install the Python dependencies by running the following command:
+```
+pip install -r requirements.txt
+```
 
 ___
 ## Usage
 
 1. Run the application with the following command:
-```node index.js```
+```
+node server.js
+```
 The application will run on http://localhost:5000.
-2. Upload an image using the `**/upload**` endpoint with the `**POST**` method. You can use Postman or similar applications to send the request.
-Make sure you include the image as a file using the `**image**` key in form-data.
+2. Upload an image using the '**/upload**' endpoint with the '**POST**' method. You can use Postman or similar applications to send the request.
+Make sure you include the image as a file using the '**image**' key in form-data.
 3. The application will upload the image to Firebase Storage, compress the image, and perform prediction using the Python model.
-4. You can access the prediction results and image data through the `**/upload**` endpoint with the `**POST**` method. The prediction result will be sent in the response.
-5. You can also use other endpoints such as `**/jenis**` to get data from the "Jenis" collection in Firestore, or `**/jenis/:id**` to get specific jenis data based on the ID.
+4. You can access the prediction results and image data through the '**/upload**' endpoint with the '**POST**' method. The prediction result will be sent in the response.
+5. You can also use other endpoints such as '**/jenis**' to get data from the "Jenis" collection in Firestore, or '**/jenis/:id**' to get specific jenis data based on the ID.
 
 ___
 
