@@ -1,0 +1,59 @@
+{
+  "kelas": "7",
+  "jenis": "Plastik Kemasan",
+  "link": [
+    {
+      "url": "https://www.youtube.com/watch?v=MJd3bo_XRaU",
+      "judul": "Tempat pensil",
+      "bahan": ["plastik kemasan", "resleting", "lem tembak", "gunting"]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Rx0rDtX89gw",
+      "judul": "Tempat pensil",
+      "bahan": [
+        "plastik kemasan",
+        "kertas",
+        "setrika",
+        "lem tembak",
+        "resleting"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=DSCBv8GeCc8",
+      "judul": "Dompet koin",
+      "bahan": ["plastik kemasan", "benang", "jarum", "gunting", "resleting"]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ak-mNbGjrOU",
+      "judul": "Keranjang buah",
+      "bahan": ["plastik kemasan", "gunting", "penggaris", "benang", "jarum"]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ik4k6oXJr84",
+      "judul": "Sajadah",
+      "bahan": ["plastik kemasan", "gunting"]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=CeSFSQZ3W3g",
+      "judul": "Tikar",
+      "bahan": ["plastik kemasan", "gunting"]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=iTiAkz0A6eg",
+      "judul": "Tas kecil",
+      "bahan": [
+        "plastik kemasan",
+        "gunting",
+        "resleting",
+        "lem tembak",
+        "benang",
+        "jarum"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=jLNWKNPP_k0",
+      "judul": "Tas pundak",
+      "bahan": ["plastik kemasan", "gunting", "resleting", "kain", "lem tembak"]
+    }
+  ]
+}

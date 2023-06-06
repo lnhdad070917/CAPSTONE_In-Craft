@@ -1,41 +1,29 @@
 const express = require("express");
-const { Storage } = require("@google-cloud/storage");
-const { Firestore } = require("@google-cloud/firestore");
+const admin = require("firebase-admin");
+const serviceAccount = require("./serviceAccountKey.json");
 const multer = require("multer");
 const { spawn } = require("child_process");
 const sharp = require("sharp");
-const { nanoid } = require("nanoid");
 
-// Path ke file kunci autentikasi JSON
-const serviceAccountKey = require("./capstone-incraft.json");
-
-// Inisialisasi Firestore
-const db = new Firestore({
-  projectId: serviceAccountKey.project_id,
-  credentials: {
-    client_email: serviceAccountKey.client_email,
-    private_key: serviceAccountKey.private_key,
-  },
-});
-
-// Inisialisasi Storage
-const storage = new Storage({
-  projectId: serviceAccountKey.project_id,
-  credentials: {
-    client_email: serviceAccountKey.client_email,
-    private_key: serviceAccountKey.private_key,
-  },
+// Inisialisasi Firebase
+admin.initializeApp({
+  credential: admin.credential.cert(serviceAccount),
+  storageBucket: "pemrograman-976fd.appspot.com",
+  databaseURL:
+    "https://pemrograman-976fd-default-rtdb.asia-southeast1.firebasedatabase.app",
 });
 
 const app = express();
+const db = admin.firestore();
+const bucket = admin.storage().bucket();
 
 // Middleware untuk mem-parse body permintaan
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Konfigurasi storage untuk multer
-const multerStorage = multer.memoryStorage();
-const upload = multer({ storage: multerStorage });
+const storage = multer.memoryStorage();
+const upload = multer({ storage: storage });
 
 // Fungsi untuk melakukan kompresi gambar
 const compressImage = async (file) => {
@@ -50,7 +38,7 @@ const compressImage = async (file) => {
   return convertedBuffer;
 };
 
-// Endpoint untuk mengunggah foto ke Google Cloud Storage dan mendapatkan prediksi
+// Endpoint untuk mengunggah foto ke Firebase Storage dan mendapatkan prediksi
 app.post("/upload", upload.single("image"), async (req, res) => {
   try {
     if (!req.file) {
@@ -58,28 +46,26 @@ app.post("/upload", upload.single("image"), async (req, res) => {
     }
 
     const file = req.file;
-    const fileExtension = file.originalname.split(".").pop(); // Mendapatkan ekstensi file
-    const randomFileName = `${nanoid()}.${fileExtension}`; // Membuat nama acak dengan nanoid
-    // const filePath = `images/${file.originalname}`;
-    const filePath = `images/${randomFileName}`;
+    const filePath = `images/${file.originalname}`;
 
-    // Kompresi gambar sebelum mengunggah ke Google Cloud Storage
+    // Kompresi gambar sebelum mengunggah ke Firebase Storage
     const compressedImageBuffer = await compressImage(file);
 
-    // Upload file ke Google Cloud Storage
-    const fileUpload = storage.bucket("capstone_incraft").file(filePath);
-    await fileUpload.save(compressedImageBuffer, {
+    // Belum melakukan kompress
+    // // Upload file ke Firebase Storage
+    // await bucket.file(filePath).save(file.buffer, {
+    //   contentType: file.mimetype,
+    // });
+
+    // Upload file ke Firebase Storage
+    await bucket.file(filePath).save(compressedImageBuffer, {
       contentType: file.mimetype,
     });
 
-    // // Dapatkan link yang ditandatangani dari Google Cloud Storage
-    // const [signedUrl] = await fileUpload.getSignedUrl({
-    //   action: "read",
-    //   expires: "03-01-2500",
-    // });
-
-    // Dapatkan URL file langsung dari bucket yang sudah bersifat publik
-    const signedUrl = `https://storage.googleapis.com/capstone_incraft/${filePath}`;
+    // Dapatkan link yang ditandatangani dari Firebase Storage
+    const [signedUrl] = await bucket
+      .file(filePath)
+      .getSignedUrl({ action: "read", expires: "03-01-2500" });
 
     // Simpan link file ke Firestore
     const photoData = {
@@ -102,7 +88,23 @@ app.post("/upload", upload.single("image"), async (req, res) => {
       // Kesalahan yang terjadi di skrip Python
       errorOutput += data.toString();
     });
+    // respon hanya presdiksi
+    // pythonProcess.on("close", (code) => {
+    //   // Skrip Python selesai dieksekusi
+    //   console.log(`Child process exited with code ${code}`);
 
+    //   if (code === 0) {
+    //     // Jika skrip Python berhasil dieksekusi tanpa kesalahan
+    //     prediction = prediction.replace(/\r?\n|\r/g, "");
+    //     res.setHeader("Content-Type", "application/json");
+    //     res.send({ prediction });
+    //   } else {
+    //     // Jika ada kesalahan dalam menjalankan skrip Python
+    //     res.status(500).json({ error: "Internal server error", errorOutput });
+    //   }
+    // });
+
+    //respon dengan data firestore database
     pythonProcess.on("close", async (code) => {
       // Skrip Python selesai dieksekusi
       console.log(`Child process exited with code ${code}`);
@@ -110,13 +112,14 @@ app.post("/upload", upload.single("image"), async (req, res) => {
       if (code === 0) {
         // Jika skrip Python berhasil dieksekusi tanpa kesalahan
         prediction = prediction.replace(/\r?\n|\r/g, "");
-        // res.send({ prediction, imageUrl: signedUrl });
+
         // Mengambil data dari Firestore
         const snapshot = await db.collection("Jenis").get();
         const matchedData = [];
 
         snapshot.forEach((doc) => {
           const data = doc.data();
+          // console.log(data);
           if (data.kelas === prediction) {
             matchedData.push({
               id: doc.id,
@@ -221,7 +224,6 @@ app.put("/jenis/:id", async (req, res) => {
   }
 });
 
-// Endpoint untuk menjalankan server
 app.listen(5000, () => {
   console.log("Server is running on port 5000");
 });
