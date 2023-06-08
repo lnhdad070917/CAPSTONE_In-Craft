@@ -1,10 +1,10 @@
 {
   "kelas": "4",
-  "jenis": "kantong Plastik",
+  "jenis": "Kantong Plastik",
   "link": [
     {
-      "url": "https://www.youtube.com/watch?v=yLrSr0PlgRg",
       "judul": "Tanaman hias",
+      "link": "https://www.youtube.com/watch?v=yLrSr0PlgRg",
       "bahan": [
         "kantong plastik",
         "setrika",
@@ -13,17 +13,42 @@
         "korek",
         "spidol",
         "kawat",
-        "lem tembak"
+        "lem tembak",
+        "masking tape"
+      ],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Rapikan tekstur kantong plastik dengan setrika",
+        "Gunting berbentuk persegi berukuran 18 x 18 cm",
+        "Tumpuk 2 buah plastik persegi tersebut, kemudian lipat menjadi segitiga sama rata",
+        "Lipat ujung segitiga secara silang",
+        "Gunting secara melengkung di tengah lipatan tersebut",
+        "Bentuk salah satu menjadi daun menggunakan gunting, beri tekstur dan pola sesuai keinginan",
+        "Lapisi pola dengan kertas, lalu setrika agar rapi dan lurus",
+        "Lipat pola kelopak menjadi dua, rekatkan dengan bantuan korek api",
+        "Lakukan berulang kali, hingga mendapat pola sesuai jumlah yang diinginkan",
+        "Hias dengan spidol",
+        "Satukan 2 pola daun dan rekatkan menggunakan lem",
+        "Lilitkan kawat dengan kantong plastik, lakukan berulang dan satukan jika dirasa jumlahnya sudah cukup",
+        "Masukkan kawat ke tengah pola kelopak bunga",
+        "Beri hiasan daun, kemudian rekatkan dan rapikan menggunakan masking tape berwarna hijau"
       ]
     },
     {
-      "url": "https://www.youtube.com/watch?v=fLEkneZS6-0",
       "judul": "Tanaman hias bunga",
-      "bahan": ["kantong plastik", "gunting"]
+      "link": "https://www.youtube.com/watch?v=fLEkneZS6-0",
+      "bahan": ["kantong plastik", "gunting", "benang"],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Gunting bagian ujung atas dan bawah kantong plastik",
+        "Ambil satu bagian (jangan terlalu ujung), kemudian tarik dan gunting",
+        "Ulangi step yang sama hingga kantong plastik habis",
+        "Ikat bagian ujung dengan benang"
+      ]
     },
     {
-      "url": "https://www.youtube.com/watch?v=noy3t_9vReU",
       "judul": "Tanaman hias bunga",
+      "link": "https://www.youtube.com/watch?v=noy3t_9vReU",
       "bahan": [
         "kantong plastik",
         "gunting",
@@ -31,82 +56,137 @@
         "korek",
         "kawat",
         "lem tembak"
+      ],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Gunting kantong plastik bagian atas (gagang kresek)",
+        "Lipat menjadi 2 bagian, kemudian rekatkan dengan korek",
+        "Gunting membentuk pola daun",
+        "Rapikan dengan korek api dan sesuaikan pola daun yang diinginkan",
+        "Ambil beberapa gagang kantong plastik lagi, tumpuk menjadi satu",
+        "Lipat simetri sebanyak 3 kali, kemudian gunting membentuk pola daun",
+        "Rapikan dengan korek api dan sesuaikan pola daun yang diinginkan",
+        "Ambil beberapa gagang kantong plastik lagi, tumpuk dan gunting bagian bawahnya menjadi rumbai",
+        "Tempelkan ke kawat dan rekatkan dengan korek api",
+        "Lilitkan ke kawat hingga habis",
+        "Ambil beberapa gagang kantong plastik lagi, tumpuk menjadi satu",
+        "Gunting membentuk pola kelopak bunga",
+        "Rapikan dan bentuk tekstur bunga dengan korek api",
+        "Susun di kawat dan rekatkan menggunakan lem tembak",
+        "Hias dengan daun sesuai selera"
       ]
     },
     {
-      "url": "https://www.youtube.com/watch?v=DO9GUgWdbSI",
       "judul": "Tanaman hias bunga",
-      "bahan": ["kantong plastik", "gunting", "korek", "kawat"]
+      "link": "https://www.youtube.com/watch?v=dAaCJYx5N7w",
+      "bahan": ["kantong plastik", "gunting", "korek", "kawat"],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Gunting kantong plastik berukuran 11 x 11 cm sebanyak 2 buah",
+        "Lipat simetri menjadi segitiga sebanyak 2 kali",
+        "Rekatkan sisi lipatan dengan korek api",
+        "Lipat silang segitiga, kemudian gunting membentuk pola kelopak",
+        "Buka lipatan, kemudian rapikan dengan korek api",
+        "Lakukan hal yang sama hingga terbentuk bunga dengan jumlah yang diinginkan",
+        "Tumpuk beberapa pola bunga, susun dan rapikan hingga menjadi satu bunga",
+        "Masukkan kawat ke bagian tengah bunga",
+        "Rekatkan dengan lem tembak",
+        "Balut kawat dengan kantong plastik",
+        "Rapikan dengan korek api",
+        "Hias dengan pola daun dan tempelkan pada tangkai kawat"
+      ]
     },
     {
-      "url": "https://www.youtube.com/watch?v=dAaCJYx5N7w",
       "judul": "Tanaman hias bunga",
-      "bahan": ["kantong plastik", "gunting", "korek", "kawat"]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=WKUs4OPn5rg",
-      "judul": "Tanaman hias bunga",
+      "link": "https://www.youtube.com/watch?v=WKUs4OPn5rg",
       "bahan": [
         "kantong plastik",
         "gunting",
         "kawat",
         "korek",
         "lem tembak",
-        "lilin"
+        "lilin",
+        "flower tape"
+      ],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Gunting kantong plastik berukuran 8 x 8 cm",
+        "Lipat simetri sebanyak 5 kali",
+        "Gunting melingkar pada ujung lipatan",
+        "Lakukan hal yang sama, kemudian gunting ujung lipatan berbentuk rumbai",
+        "Lapisi kawat dengan kantong plastik",
+        "Rapikan dengan korek api",
+        "Buat hiasan berbentuk daun dengan kantong plastik hijau",
+        "Tumpuk kedua pola, kemudian rekatkan dan rapikan dengan api",
+        "Masukkan kawat ke bagian tengah bunga",
+        "Satukan tangkai bunga yang lain dan rekatkan dengan flower tape"
       ]
     },
     {
-      "url": "https://www.youtube.com/watch?v=Pf5Pas7ZfhE",
       "judul": "Tanaman hias bunga",
-      "bahan": ["kantong plastik", "gunting", "korek", "kawat", "lem tembak"]
+      "link": "https://www.youtube.com/watch?v=Pf5Pas7ZfhE",
+      "bahan": ["kantong plastik", "gunting", "korek", "kawat", "lem tembak"],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Gunting kantong plastik bagian atas (gagang kresek)",
+        "Gunting membentuk pola daun",
+        "Rapikan dengan korek api",
+        "Lilitkan kantong plastik hijau ke kawat, rapikan dengan korek",
+        "Lem bagian tengah daun dengan lem tembak",
+        "Tempelkan kawat ke tengah daun",
+        "Ambil beberapa gagang kantong plastik lagi, tumpuk menjadi satu",
+        "Lipat simetri sebanyak 3 kali, kemudian gunting membentuk pola bunga",
+        "Ambil beberapa gagang kantong plastik lagi, tumpuk 6 lapis menjadi satu",
+        "Lipat simetri menjadi segitiga, kemudian gunting menjadi pola bunga kelopak 8",
+        "Rapikan dengan korek api",
+        "Lilitkan gagang kantong plastik yang sudah digunting rumbai ke ujung kawat",
+        "Masukkan kawat ke tengah bunga kelopak 8",
+        "Lakukan berulang kali, kemudian rapikan menggunakan lem tembak"
+      ]
     },
     {
-      "url": "https://www.youtube.com/watch?v=cNIpa-V_8Os",
-      "judul": "Tanaman hias bunga anggrek latek",
-      "bahan": ["kantong plastik", "kertas", "setrika", "lem tembak"]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=aH85Bq4MVPY",
       "judul": "Tanaman hias Bunga lili",
-      "bahan": ["kantong plastik", "gunting", "korek", "kawat"]
+      "link": "https://www.youtube.com/watch?v=aH85Bq4MVPY",
+      "bahan": ["kantong plastik", "gunting", "korek", "kawat"],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Gunting kantong plastik putih berukuran 11 x 10 cm sebanyak 2 lembar",
+        "Gunting kantong plastik ungu berukuran 10 x 9 cm sebanyak 2 lembar",
+        "Bentuk kelopak bunga menggunakan gunting",
+        "Untuk yang berwarna ungu, tambahkan detail rumbai di sekeliling pola",
+        "Satukan pola, kemudian rekatkan dan bentuk tekstur dengan korek api",
+        "Lilitkan kantong plastik pada ujung kawat sampai lumayan tebal, rapikan dengan korek api",
+        "Masukkan kawat ke tengah pola bunga",
+        "Lapisi sisa kawat menggunakan kantong plastik hingga semua sisi tertutup",
+        "Tambah hiasan daun dan tempelkan pada tangkai bunga, rapikan dengan korek api"
+      ]
     },
     {
-      "url": "https://www.youtube.com/watch?v=aQn7STrq_V0",
       "judul": "Tanaman hias",
+      "link": "https://www.youtube.com/watch?v=aQn7STrq_V0",
       "bahan": [
         "kantong plastik",
-        "kertas",
-        "kain",
-        "setrika",
         "gunting",
+        "lem tembak",
+        "kawat",
         "korek",
-        "kawat",
-        "lem tembak"
+        "spidol",
+        "gantungan kunci"
+      ],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Gunting kantong plastik berukuran 14 x 14 cm sebanyak 8 buah",
+        "Lipat masing-masing kantong plastik menjadi 4 bagian",
+        "Gunting membentuk pola kelopak bunga pada sisi yang dilipat",
+        "Rapikan dengan korek api",
+        "Ambil 4 pola kelopak, rekatkan dengan lem tembak",
+        "Masukkan kawat ke tengah kelopak bunga, rapikan dengan korek api",
+        "Buat hiasan daun dengan kantong plastik hijau",
+        "Lilitkan daun pada kawat, rapikan dengan korek api",
+        "Ambil 4 pola kelopak bunga lagi, rekatkan dengan lem tembak",
+        "Tempelkan pada kelopak bunga yang sudah ada, rapikan dengan korek api",
+        "Lilitkan kawat pada gantungan kunci"
       ]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=NJMvumQMfXc",
-      "judul": "Tanaman hias palem kipas",
-      "bahan": ["kantong plastik", "kain", "setrika", "gunting"]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=i0_e5H-I3zs",
-      "judul": "Bunga plastik",
-      "bahan": [
-        "lem",
-        "kantong plastik",
-        "kawat",
-        "tutup botol",
-        "benang",
-        "selotip",
-        "tang jepit",
-        "gunting"
-      ]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=i0_e5H-I3zs",
-      "judul": "Tanaman hias daun pakis",
-      "bahan": ["kantong plastik", "setrika", "gunting", "kawat", "lem tembak"]
     }
   ]
 }

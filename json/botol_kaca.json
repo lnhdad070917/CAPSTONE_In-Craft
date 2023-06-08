@@ -1,9 +1,8 @@
 {
-  "kelas": "6",
+  "kelas": "3",
   "jenis": "Botol Kaca",
   "link": [
     {
-      "url": "https://youtu.be/ddtoZpWDaO8",
       "judul": "Hiasan",
       "bahan": [
         "botol kaca bekas",
@@ -13,10 +12,42 @@
         "kain flanel",
         "lem tembak",
         "gunting"
+      ],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Balut botol kaca bekas menggunakan tali rami",
+        "Buat pola kelopak bunga dengan tali rami",
+        "Tempelkan pada kain perca dan gunting sesuai pola",
+        "Satukan kelopak-kelopak tersebut membentuk bunga",
+        "Tempelkan mutiara sintetis di tengah bunga sebagai putik bunga",
+        "Tempelkan tali rami di botol membentuk ranting",
+        "Tempelkan bunga di setiap ujung ranting"
       ]
     },
     {
-      "url": "https://youtu.be/Rhca6pB270U",
+      "judul": "Gelas",
+      "bahan": [
+        "botol kaca bekas",
+        "benang katun",
+        "bensin",
+        "korek api",
+        "baskom",
+        "air suhu normal",
+        "lilin"
+      ],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Bersihkan botol kaca",
+        "Ikat botol kaca dengan benang katun sesuai dengan keinginan tinggi gelas",
+        "Basahi ikatan benang katun dengan bensin",
+        "Bakar ikatan tersebut dengan lilin",
+        "Tunggu hingga api mati dan terdengar suara pecahan kaca",
+        "Letakkan botol pada baskom berisi air, tunggu hingga dingin",
+        "Pisahkan bagian botol yang terikat dan lepaskan ikatannya",
+        "Amplas botol yang sudah terbelah agar permukaan atas gelas halus"
+      ]
+    },
+    {
       "judul": "Hiasan",
       "bahan": [
         "botol kaca bekas",
@@ -28,39 +59,22 @@
         "cutter",
         "double tape",
         "gunting",
-        "korek"
-      ]
-    },
-    {
-      "url": "https://youtu.be/Y8-Zy0sBm-s",
-      "judul": "Hiasan",
-      "bahan": [
-        "botol kaca bekas",
-        "lampu kawat",
-        "bunga kering",
-        "foto",
-        "rumput angin",
-        "tali rami",
-        "pencapit",
-        "gunting",
+        "korek",
         "lem tembak"
+      ],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Bersihkan botol kaca",
+        "Balut botol kaca dengan tali rami menggunakan double tape",
+        "Rapikan tali rami dengan dibakar menggunakan korek",
+        "Tempelkan mutiara pada botol membentuk huruf yang diinginkan menggunakan lem tembak",
+        "Balut kawat dengan tali rami",
+        "Potong busa pada cotton bud secara diagonal, lakukan sebanyak yang diinginkan",
+        "Tempel busa tersebut pada kawat yang sudah dibalut tali rami sehingga terbentuk seperti tanaman",
+        "Tempelkan pita pada botol sebagai hiasan"
       ]
     },
     {
-      "url": "https://youtu.be/hUaSj2fcOgc",
-      "judul": "Gelas",
-      "bahan": [
-        "botol kaca bekas",
-        "benang katun",
-        "bensin",
-        "korek api",
-        "baskom",
-        "air suhu normal",
-        "lilin"
-      ]
-    },
-    {
-      "url": "https://youtu.be/TuREEO8he74",
       "judul": "Hiasan",
       "bahan": [
         "botol kaca sirup bekas",
@@ -70,73 +84,94 @@
         "benang kasur putih",
         "lem fox",
         "lem tembak",
-        "pylox warna perak & putih",
+        "pylox",
         "gunting"
+      ],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Tempelkan manik-manik pada botol kaca sesuai keinginan atau hias menggunakan lem tembak sesuai keinginan",
+        "Tempelkan selotip kertas pada bagian yang ingin tidak diberi pylox",
+        "Pylox botol kaca",
+        "Lepaskan selotip kertas"
       ]
     },
     {
-      "url": "https://youtu.be/6RcBQkifuYo",
       "judul": "Hiasan",
       "bahan": [
         "botol kaca bekas",
-        "clay",
-        "kuas",
-        "selotip warna",
-        "kertas stiker",
-        "tali rami",
-        "renda",
-        "manik-manik",
-        "cat akrilik",
-        "bunga kering",
-        "kertas",
-        "gunting"
-      ]
-    },
-    {
-      "url": "https://youtu.be/fii4OecPnz0",
-      "judul": "Lampu meja",
-      "bahan": [
-        "botol kaca bekas",
-        "kayu",
-        "lampu",
-        "tali rami",
-        "pemotong kaca",
-        "lilin",
-        "amplas",
-        "gergaji kayu",
-        "bor",
-        "paku",
-        "lem kayu",
-        "selotip kabel",
-        "lem tembak"
-      ]
-    },
-    {
-      "url": "https://youtu.be/6LIYjcGH1Y0",
-      "judul": "Lampu hias",
-      "bahan": [
-        "botol kaca bekas",
-        "gelas kertas",
-        "kardus bekas",
+        "aneka bunga dan daun",
+        "buku",
         "tisu",
-        "kertas",
-        "biji-bijian",
-        "lampu kawat",
-        "cat akrilik",
-        "lem tembak",
-        "gunting",
-        "lem"
+        "lem kayu",
+        "gunting"
+      ],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Letakkan tisu pada buku yang terbuka",
+        "Rapikan bunga atau daun dengan gunting kemudian letakkan di atas tisu",
+        "Letakkan tisu lain di atasnya",
+        "Lakukan hal yang sama di lembaran buku yang berbeda",
+        "Tutup buku dan tekan dengan kuat",
+        "Setelah bunga dan daun tersebut pipih, tempelkan pada botol sesuai selera dengan menggunakan lem kayu",
+        "Setelah tertempel, lapisi kembali dengan lem kayu",
+        "Balut bagian mulut botol dengan tali rami menggunakan lem tembak"
       ]
     },
     {
-      "url": "https://youtu.be/2zZLZHjUE4I",
-      "judul": "Lampu hias",
-      "bahan": ["botol kaca", "benang wol", "lampu", "gunting", "lem tembak"]
+      "judul": "Hiasan",
+      "bahan": [
+        "botol kaca bekas",
+        "lampu kawat",
+        "bunga kering",
+        "foto",
+        "rumput angin",
+        "tali rami",
+        "penjepit",
+        "gunting",
+        "lem tembak"
+      ],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Bersihkan botol kaca",
+        "Masukkan dan tempelkan rumput angin ke dalam botol kaca dengan menggunakan penjepit dan lem tembak",
+        "Susun aneka bunga kering di atas rumput tersebut",
+        "Susun foto dan lampu kawat ke dalam botol kaca",
+        "Ikat bagian mulut botol dengan tali rami kemudian bentuk pita dari tali rami tersebut"
+      ]
     },
     {
-      "url": "https://youtu.be/i1kwUR3nhIk",
-      "judul": "Keranjang kecil",
-      "bahan": ["botol kaca", "benang wol", "selotip", "cat kuku", "lem tembak"]
+      "judul": "Vas bunga",
+      "bahan": [
+        "botol kaca bekas",
+        "cangkang kerang",
+        "tali rami",
+        "mutiara sintetis",
+        "lem tembak"
+      ],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Bersihkan botol kaca",
+        "Tempelkan permukaan botol dengan cangkang kerang, sisakan bagian atas botol yang melengkung",
+        "Lilitkan bagian botol yang tidak tertutup cangkang kerang dengan tali rami",
+        "Tempelkan mutiara sintetis pada mulut botol dan pertemuan antara cangkang kerang dan tali rami",
+        "Buat bentuk bunga dengan tali rami dan tempelkan pada botol sebagai hiasan"
+      ]
+    },
+    {
+      "judul": "Hiasan",
+      "bahan": [
+        "botol kaca bekas",
+        "kain flanel",
+        "manik-manik mata",
+        "gunting",
+        "lem tembak"
+      ],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Potong kain flanel secara memanjang",
+        "Balut botol kaca dengan potongan kain flanel tersebut menggunakan lem tembak",
+        "Hias botol dengan kain flanel dan manik-manik mata sesuai keinginan"
+      ]
     }
   ]
 }

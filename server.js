@@ -110,30 +110,30 @@ app.post("/upload", upload.single("image"), async (req, res) => {
       if (code === 0) {
         // Jika skrip Python berhasil dieksekusi tanpa kesalahan
         prediction = prediction.replace(/\r?\n|\r/g, "");
-        // res.send({ prediction, imageUrl: signedUrl });
+        res.send({ prediction, imageUrl: signedUrl });
         // Mengambil data dari Firestore
-        const snapshot = await db.collection("Jenis").get();
-        const matchedData = [];
+        // const snapshot = await db.collection("Jenis").get();
+        // const matchedData = [];
 
-        snapshot.forEach((doc) => {
-          const data = doc.data();
-          if (data.kelas === prediction) {
-            matchedData.push({
-              id: doc.id,
-              jenis: data.jenis,
-              link: data.link,
-            });
-          }
-        });
+        // snapshot.forEach((doc) => {
+        //   const data = doc.data();
+        //   if (data.kelas === prediction) {
+        //     matchedData.push({
+        //       id: doc.id,
+        //       jenis: data.jenis,
+        //       link: data.link,
+        //     });
+        //   }
+        // });
 
-        if (matchedData.length === 0) {
-          // Jika tidak ada data yang cocok
-          res.status(404).json({ error: "Data not found" });
-        } else {
-          // Jika ada data yang cocok
-          res.setHeader("Content-Type", "application/json");
-          res.send({ imageUrl: signedUrl, matchedData });
-        }
+        // if (matchedData.length === 0) {
+        //   // Jika tidak ada data yang cocok
+        //   res.status(404).json({ error: "Data not found" });
+        // } else {
+        //   // Jika ada data yang cocok
+        //   res.setHeader("Content-Type", "application/json");
+        //   res.send({ imageUrl: signedUrl, matchedData });
+        // }
       } else {
         // Jika ada kesalahan dalam menjalankan skrip Python
         res.status(500).json({ error: "Internal server error", errorOutput });
@@ -154,6 +154,41 @@ app.get("/jenis", async (req, res) => {
       data.push({ id: doc.id, ...doc.data() });
     });
     return res.status(200).json(data);
+  } catch (error) {
+    console.error("Error while fetching data:", error);
+    return res.status(500).json({ error: "Failed to fetch data." });
+  }
+});
+
+app.get("/kelas", async (req, res) => {
+  try {
+    const searchKelas = req.query.q; // Mengambil nilai query "kelas" dari URL
+    const snapshot = await db.collection("Jenis").get();
+
+    const matchedData = [];
+
+    snapshot.forEach((doc) => {
+      const data = doc.data();
+      if (data.kelas === searchKelas) {
+        const links = data.link.map((linkData) => ({
+          bahan: linkData.bahan,
+          judul: linkData.judul,
+          url: linkData.url,
+        }));
+
+        matchedData.push({
+          id: doc.id,
+          jenis: data.jenis,
+          link: links,
+        });
+      }
+    });
+
+    if (matchedData.length === 0) {
+      return res.status(404).json({ error: "Jenis not found." });
+    }
+
+    return res.status(200).json(matchedData);
   } catch (error) {
     console.error("Error while fetching data:", error);
     return res.status(500).json({ error: "Failed to fetch data." });

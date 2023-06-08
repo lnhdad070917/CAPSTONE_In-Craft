@@ -4,7 +4,7 @@ from PIL import Image
 import requests
 from io import BytesIO
 
-model_path = "model/30.tflite"  # Ubah sesuai dengan path model Anda
+model_path = "model/81.tflite"  # Ubah sesuai dengan path model Anda
 
 interpreter = tf.lite.Interpreter(model_path=model_path)
 interpreter.allocate_tensors()

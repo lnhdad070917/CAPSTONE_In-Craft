@@ -3,38 +3,9 @@
   "jenis": "Tutup Botol Plastik",
   "link": [
     {
-      "url": "https://youtu.be/6GgLABn-n54",
       "judul": "Hiasan dinding",
       "bahan": [
-        "tutup botol bekas",
-        "kertas berwarna",
-        "busa glitter",
-        "kantong plastik",
-        "kawat",
-        "benang wol",
-        "mutiara",
-        "gunting",
-        "lem tembak"
-      ]
-    },
-    {
-      "url": "https://youtu.be/T2Hu0fjuX5k",
-      "judul": "Hiasan bunga",
-      "bahan": [
-        "tutup botol bekas",
-        "kawat",
-        "cat akrilik",
-        "lem tembak",
-        "spidol",
-        "tang",
-        "kuas"
-      ]
-    },
-    {
-      "url": "https://youtu.be/dBmyvHjSD8A",
-      "judul": "Hiasan dinding",
-      "bahan": [
-        "tutup botol bekas",
+        "tutup botol plastik bekas",
         "kardus bekas",
         "kain flanel",
         "benang wol",
@@ -42,28 +13,29 @@
         "gunting",
         "lem tembak",
         "double tape"
+      ],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Potong kardus membentuk oval dengan panjang 27,5 cm dan lebar 21,5 cm",
+        "Tempelkan kain flanel pada setiap sisi kardus",
+        "Tempelkan tutup botol plastik bekas pada tepi kardus",
+        "Tempelkan 5 buah tutup botol plastik bekas pada kardus membentuk bunga sebanyak 2 buah",
+        "Gulung benang wol pada jari lalu ikat bagian tengahnya",
+        "Lipat gulungan tersebut lalu ikat dan potong benang yang masih menyatu",
+        "Lakukan hal yang sama sampai terbentuk 2 buah benang",
+        "Tempelkan pada bagian tengah bunga sebagai putik bunga",
+        "Balut kawat dengan melilitkan benang wol, buat sebanyak 2 buah kawat",
+        "Tempelkan pada kardus sebagai tangkai bunga",
+        "Buat kerangka daun dengan menggunakan kawat lalu tutup dengan benang wol",
+        "Lakukan hingga terbentuk 4 daun",
+        "Tempelkan pangkal daun pada kardus",
+        "Buat gantungan dengan menggunakan kain flanel"
       ]
     },
     {
-      "url": "https://youtu.be/X1fKsBrK5_Y",
-      "judul": "Vas bunga hias",
-      "bahan": [
-        "tutup botol bekas",
-        "tali kur",
-        "stik bambu",
-        "kardus bekas",
-        "mutiara sintetis",
-        "cutter",
-        "lem tembak",
-        "penggaris",
-        "korek api"
-      ]
-    },
-    {
-      "url": "https://youtu.be/0fHrezLb13M",
       "judul": "Tas",
       "bahan": [
-        "tutup botol bekas",
+        "tutup botol plastik bekas",
         "kabel ties",
         "mutiara ringan",
         "kain flanel",
@@ -72,80 +44,172 @@
         "solder",
         "jarum jahit",
         "benang andaria"
+      ],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Lubangi 4 bagian samping tutup botol dengan menggunakan solder",
+        "Satukan tutup botol dengan menggunakan kabel ties, buat dengan ukuran masing-masing 6 x 4 tutup botol sebanyak 3 buah dan 4 x 4 tutup botol sebanyak 2 buah kemudian rapikan dengan memotong kabel ties yang tersisa",
+        "Satukan membentuk balok tanpa tutup dengan menggunakan kabel ties lalu rapikan dengan memotong kabel ties yang tersisa",
+        "Pasang mutiara pada bagian yang masih terlihat kosong dengan menggunakan benang andaria",
+        "Potong kain flanel berukuran 13 x 11 cm sebanyak 2 buah, 20 x 11 cm sebanyak 2 buah, dan 20 x 13 sebanyak 1 buah",
+        "Satukan kain flanel membentuk balok tanpa tutup dengan cara dijahit",
+        "Jahit kain flanel ke bagian dalam tas yang sudah dibuat dari tutup botol",
+        "Masukkan mutiara-mutiara sintetis ke kawat, sisakan sedikit bagian kawat",
+        "Buat sebanyak 2 buah kawat",
+        "Lubangi 4 bagian atas tas botol plastik kemudian pasang kawat tersebut untuk menjadi tali tas",
+        "Beri hiasan berupa gantungan pada tali tas"
       ]
     },
     {
-      "url": "https://youtu.be/I_MN-8TQ9d0",
-      "judul": "Tempat serbaguna",
+      "judul": "Tempat tisu",
+      "bahan": [
+        "tutup botol plastik bekas",
+        "kardus bekas",
+        "kain flanel",
+        "perekat kain",
+        "manik-manik",
+        "jarum pentul",
+        "cutter",
+        "gunting",
+        "lem tembak"
+      ],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Potong 2 buah kardus dengan ukuran 30 x 17 cm",
+        "Lubangi bagian tengah salah satu kardus dengan ukuran 14 x 4 cm",
+        "Tempelkan kain flanel pada setiap sisi masing-masing kardus",
+        "Gunakan kardus yang tidak berlubang sebagai alas",
+        "Tempelkan tepi kardus tersebut dengan tutup botol",
+        "Tempelkan tutup botol di atas tutup botol secara zigzag, lakukan hingga 7 tingkat",
+        "Tempelkan 2 perekat pada salah satu sisi panjangnya",
+        "Tempelkan kain flanel pada sisi panjang lainnya",
+        "Tempelkan kardus berlubang pada kain flanel tersebut",
+        "Tempelkan 2 perekat pada kardus tersebut, sesuaikan dengan perekat sebelumnya sehingga tempat tisu dapat dibuka dan ditutup",
+        "Beri hiasan dengan manik-manik pada bagian atas tempat tisu"
+      ]
+    },
+    {
+      "judul": "Gantungan kunci berbentuk hewan",
+      "bahan": [
+        "tutup botol plastik bekas",
+        "busa hati",
+        "ring gantungan kunci",
+        "mutiara sintetis",
+        "spidol",
+        "lem tembak"
+      ],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Tutup bagian atas dan samping tutup botol dengan busa hati",
+        "Pasang ring gantungan kunci pada bagian samping dalam tutup botol dengan menggunakan lem tembak",
+        "Masukkan 2 buah mutiara ke dalam tutup botol",
+        "Satukan 2 buah tutup botol yang sudah ditutup busa hati dengan menempelkan bagian dalamnya",
+        "Hias gantungan kunci dengan membentuk kepala hewan menggunakan busa hati berwarna dan spidol"
+      ]
+    },
+    {
+      "judul": "Vas bunga sintetis",
+      "bahan": [
+        "tutup botol plastik bekas",
+        "kardus bekas",
+        "selotip kertas",
+        "cat semprot",
+        "manik-manik",
+        "gunting",
+        "lem tembak"
+      ],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Potong kardus membentuk lingkaran dengan diameter 9,5 cm dan 6,5 cm",
+        "Tempelkan selotip kertas pada bagian samping kardus",
+        "Tempelkan kardus lingkaran kecil di atas kardus lingkaran besar",
+        "Tempelkan bagian samping tutup botol ke tepi kardus",
+        "Tempelkan bagian samping tutup botol di atasnya secara zigzag",
+        "Tempelkan bagian samping tutup botol di atasnya secara zigzag tetapi tambahkan 1 tutup botol lagi sehingga lebih lebar dari sebelumnya",
+        "Lakukan hingga 3 tingkat",
+        "Tempelkan tutup botol di atasnya sesuai selera",
+        "Cat seluruh vas menggunakan cat semprot",
+        "Tempelkan manik-manik sebagai hiasan"
+      ]
+    },
+    {
+      "judul": "Tempat pensil dan pigura",
       "bahan": [
         "tutup botol bekas",
+        "kardus",
+        "kertas berwarna",
+        "renda",
+        "kaleng bekas",
+        "gunting",
+        "lem kertas",
+        "lem tembak"
+      ],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Potong kardus berukuran 24 x 11 cm untuk alas",
+        "Tutup seluruh sisi kardus dengan kertas berwarna",
+        "Untuk membuat pigura, potong kardus berukuran 13 x 17 cm sebanyak 2 buah",
+        "Lubangi bagian tengah salah satu kardus",
+        "Tutup seluruh sisi kedua kardus dengan kertas berwarna",
+        "Ambil kardus lain, potong berukuran kecil",
+        "Tempelkan pada samping kanan, kiri, dan bawah lubang kardus",
+        "Tempelkan kedua kardus yang telah ditutup kertas berwarna dengan menggunakan lem tembak pada bagian samping kanan, kiri, dan bawah",
+        "Tutup bagian samping kanan, kiri, dan bawah kardus dengan kertas berwarna",
+        "Tempelkan beberapa tutup botol pada ujung kiri atas dan kanan bawah kardus",
+        "Untuk membuat tempat pensil, satukan tutup botol membentuk lingkaran dengan menggunakan kaleng bekas sebagai cetakan",
+        "Buat hingga 4 lingkaran",
+        "Satukan dengan menempelkan di bagian atasnya secara zigzag",
+        "Setelah pigura dan tempat pensil selesai, tempelkan tempat pensil ke kardus yang dijadikan alas",
+        "Buat penyangga pigura dengan kardus lain yang ditutup dengan kain flanel",
+        "Tempelkan penyangga pada pigura dan kardus alas",
+        "Tempel manik-manik pada samping alas dan pigura sebagai hiasan"
+      ]
+    },
+    {
+      "judul": "Gantungan kunci berbentuk keranjang bunga",
+      "bahan": [
+        "tutup botol plastik bekas",
+        "tali katun",
+        "potongan kain flanel",
+        "ring gantungan kunci",
+        "serabut rumput",
+        "bunga kering",
+        "lem tembak"
+      ],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Potong tutup botol menjadi 2 bagian",
+        "Ambil bagian atas tutup botol dan beri lubang di tengahnya",
+        "Ambil tali katun dan ikatkan pada ring gantungan kunci",
+        "Masukkan ujung tali katun melalui lubang yang ada di bagian atas tutup botol",
+        "Tarik tali katun hingga ring gantungan kunci berada di bagian atas tutup botol",
+        "Tempelkan potongan kain flanel pada bagian atas dan samping tutup botol menggunakan lem tembak",
+        "Tempelkan serabut rumput pada bagian atas tutup botol sebagai hiasan",
+        "Masukkan bunga kering ke dalam tutup botol",
+        "Satukan kedua bagian tutup botol dan rekatkan dengan lem tembak"
+      ]
+    },
+    {
+      "judul": "Lampu Hias",
+      "bahan": [
+        "tutup botol plastik bekas",
         "botol plastik bekas",
-        "kardus bekas",
-        "kain katun",
-        "kain flanel",
-        "tali kur",
-        "jarum",
-        "benang jahit",
-        "gunting",
-        "lem tembak",
-        "selotip"
-      ]
-    },
-    {
-      "url": "https://youtu.be/9VMN5W12n0c",
-      "judul": "Bunga hias",
-      "bahan": [
-        "tutup botol bekas",
-        "kawat",
-        "kain flanel",
-        "jarum",
-        "benang jahit",
-        "cutter",
-        "tang",
-        "lilin",
-        "gunting",
+        "lampu",
+        "cat akrilik",
+        "bunga dari busa hati",
+        "solder",
         "lem tembak"
-      ]
-    },
-    {
-      "url": "https://youtu.be/rZ50oObaHb0",
-      "judul": "Tempat tisu",
-      "bahan": [
-        "tutup botol bekas",
-        "kardus bekas",
-        "kain flanel",
-        "manik-manik",
-        "jarum pentul",
-        "cutter",
-        "gunting",
-        "lem tembak"
-      ]
-    },
-    {
-      "url": "https://youtu.be/4qaoqbl0Qcs",
-      "judul": "Tempat tisu",
-      "bahan": [
-        "tutup botol bekas",
-        "kardus bekas",
-        "kain flanel",
-        "renda bunga",
-        "bunga satin",
-        "daun busa hati",
-        "manik-manik",
-        "jarum pentul",
-        "gunting",
-        "lem tembak"
-      ]
-    },
-    {
-      "url": "https://youtu.be/mv9-FovyamY",
-      "judul": "Pot bunga",
-      "bahan": [
-        "tutup botol bekas",
-        "boto plastikl bekas",
-        "cutter",
-        "gunting",
-        "lem tembak"
+      ],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Potong bagian atas botol yang melengkung",
+        "Cat bagian atas botol tersebut dengan cat akrilik",
+        "Potong setengah sisa botol, gunakan bagian bawahnya",
+        "Lubangi membentuk lingkaran di bawah botol dengan solder",
+        "Tempelkan tutup-tutup botol melingkari botol",
+        "Masukkan bagian atas botol ke lubang di bawah botol",
+        "Tempelkan bunga hias di tepi bawah secara melingkar",
+        "Masukkan lampu kawat ke botol"
       ]
     }
   ]

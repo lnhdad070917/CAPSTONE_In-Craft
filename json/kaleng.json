@@ -3,33 +3,8 @@
   "jenis": "Kaleng",
   "link": [
     {
-      "url": "https://youtu.be/-r9fIZ3f7fI",
       "judul": "Tempat Pensil",
-      "bahan": [
-        "kaleng bekas",
-        "kertas buffalo",
-        "double tape",
-        "diamond baris kopong",
-        "spidol",
-        "tali kur",
-        "lem tembak",
-        "gunting"
-      ]
-    },
-    {
-      "url": "https://youtu.be/-r9fIZ3f7fI?t=369",
-      "judul": "Hiasan Dinding",
-      "bahan": [
-        "tutup kaleng bekas",
-        "kain flanel",
-        "jarum dan benang jahit",
-        "lem tembak",
-        "gunting"
-      ]
-    },
-    {
-      "url": "https://youtu.be/n0hA9iNYKAM",
-      "judul": "Tempat Pensil",
+      "link": "https://youtu.be/n0hA9iNYKAM",
       "bahan": [
         "kaleng bekas",
         "kardus bekas",
@@ -37,11 +12,21 @@
         "selotip kertas",
         "lem tembak",
         "gunting"
+      ],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Potong kardus sesuai panjang dan tinggi kaleng, hilangkan lapisan atasnya",
+        "Balut kaleng bekas dengan selotip kertas",
+        "Lem kardus pada permukaan kaleng",
+        "Tempel ujung dan pangkal kaleng dengan tali kepang",
+        "Siapkan kardus, potong membentuk pola daun kemudian hiasi bagian tepi dengan tali kepang",
+        "Tempel pada kaleng sebagai hiasan",
+        "Buat lilitan melingkar dengan tali kepang kemudian tempelkan pada kaleng"
       ]
     },
     {
-      "url": "https://youtu.be/mvheVngZNp0",
-      "judul": "Tempat penyimpanan",
+      "judul": "Tempat Penyimpanan",
+      "link": "https://youtu.be/mvheVngZNp0",
       "bahan": [
         "kaleng bekas",
         "kardus bekas",
@@ -49,51 +34,57 @@
         "busa glitter",
         "lem tembak",
         "gunting"
+      ],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Potong kain flanel sesuai panjang kaleng dan lebihkan sedikit dari tinggi kaleng",
+        "Balut kaleng dengan kain flanel",
+        "Lakukan hal yang sama hingga menghasilkan 7 kaleng yang dibalut kain flanel",
+        "Satukan ketujuh kaleng yang sudah dibalut kain flanel menjadi bentuk bunga",
+        "Tempel bagian bawah kaleng dengan kain flanel",
+        "Untuk tutup kaleng, potong kardus bekas membentuk pola bunga sesuai bentuk kaleng kemudian lapisi bagian atas dan samping dengan busa glitter",
+        "Potong kain flanel membentuk pola api kemudian tempel pada kaleng sebagai hiasan",
+        "Potong kain flanel membentuk lingkaran dan buat menjadi kerucut",
+        "Tempel pada bagian atas tutup kaleng sehingga membentuk bunga",
+        "Buat lilitan melingkar dengan kain flanel dan tempel pada bagian atas bunga sebagai hiasan dan pegangan tutup"
       ]
     },
     {
-      "url": "https://youtu.be/F1h8a3c69lQ",
-      "judul": "Mainan Motor Vespa",
-      "bahan": [
-        "kaleng bekas",
-        "dinamo tamiya",
-        "karet gelang",
-        "stik es krim",
-        "busa",
-        "tusuk sate",
-        "baterai hp jadul",
-        "switch on off",
-        "lampu led 1.5 v",
-        "selotip",
-        "sedotan",
-        "cutter",
-        "gunting"
+      "judul": "Mainan Teko dan Cangkir",
+      "link": "https://youtu.be/nOEGsG1Oc7E",
+      "bahan": ["kaleng bekas", "lem", "gunting", "cutter", "amplas"],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Untuk membuat cangkir, lepas bagian atas kaleng dengan cara diamplas dan menggunakan cutter",
+        "Potong kaleng menjadi 2 bagian besar (atas dan bawah) dan 1 bagian kecil (tengah)",
+        "Gunting bagian bawah kaleng secara vertikal dan satukan dengan bagian atas kaleng",
+        "Bagian tengah kaleng dibuat menjadi pegangan cangkir dengan cara dilipat dan dilengkungkan kemudian tempelkan pada kaleng",
+        "Untuk membuat teko, lepas bagian atas dan bawah kaleng dengan cara diamplas dan menggunakan cutter",
+        "Satukan lepasan tersebut untuk menjadi tutup teko",
+        "Potong kaleng secara horizontal menjadi dua bagian",
+        "Gunting bagian bawah kaleng secara vertikal dan satukan dengan bagian atas kaleng"
       ]
     },
     {
-      "url": "https://youtu.be/nOEGsG1Oc7E",
-      "judul": "Mainan teko dan cangkir",
-      "bahan": ["kaleng bekas", "lem", "gunting", "cutter", "amplas"]
-    },
-    {
-      "url": "https://youtu.be/--mCwhOqkR0",
-      "judul": "Mainan teko",
-      "bahan": [
-        "kaleng bekas",
-        "selang bekas",
-        "kancing",
-        "lem tembak",
-        "gunting"
+      "judul": "Hiasan Pohon",
+      "link": "https://youtu.be/HoYIos9pWMY",
+      "bahan": ["kaleng bekas", "cutter", "gunting"],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Siapkan 3 buah kaleng bekas minuman",
+        "Potong bagian atas dan bawah kaleng",
+        "Potong bagian tengah kaleng secara vertikal",
+        "Luruskan bagian tengah kaleng",
+        "Satu bagian tengah kaleng dibuat menjadi batang dengan cara dililitkan",
+        "Dua bagian tengah kaleng dipotong menjadi dua bagian kemudian dipotong membentuk pola daun",
+        "Rapikan bagian bawah dan atas kaleng yang telah dipotong, kemudian satukan untuk menjadi alas",
+        "Tempelkan batang ke alas dengan menggunakan lem tembak",
+        "Tempelkan pangkal daun ke batang"
       ]
     },
     {
-      "url": "https://youtu.be/HoYIos9pWMY",
-      "judul": "Hiasan pohon",
-      "bahan": ["kaleng", "cutter", "gunting"]
-    },
-    {
-      "url": "https://youtu.be/UHBX2saVjeU",
-      "judul": "Vas bunga",
+      "judul": "Vas Bunga",
+      "link": "https://youtu.be/UHBX2saVjeU",
       "bahan": [
         "kaleng bekas",
         "koran",
@@ -104,11 +95,12 @@
         "lem",
         "gunting",
         "lem tembak"
-      ]
+      ],
+      "langkah": []
     },
     {
-      "url": "https://youtu.be/av7MaRvo5pc",
-      "judul": "Tempat pensil",
+      "judul": "Tempat Pensil",
+      "link": "https://youtu.be/av7MaRvo5pc",
       "bahan": [
         "kaleng bekas",
         "kertas polos",
@@ -118,16 +110,74 @@
         "lem tembak",
         "penggaris",
         "pensil"
+      ],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Siapkan 3 kaleng bekas yang tidak memiliki tutup",
+        "Balut kaleng bekas 1 dengan kertas dekorasi",
+        "Balut kaleng bekas 2 dengan kertas polos",
+        "Potong kertas dekorasi membentuk pola gelombang kecil sebanyak dua dan balut pada bagian atas dan bawah kaleng bekas 2",
+        "Balut kaleng bekas 3 dengan kertas polos",
+        "Potong kertas dekorasi dan balut pada bagian tengah kaleng bekas 3",
+        "Satukan ketiga kaleng bekas membentuk segitiga"
       ]
     },
     {
-      "url": "https://youtu.be/MPIOOmnve-8",
-      "judul": "Tempat penyimpanan",
+      "judul": "Tempat Penyimpanan",
+      "link": "https://youtu.be/MPIOOmnve-8",
       "bahan": [
-        "kaleng bekas",
+        "kaleng bekas roti",
         "tarikan laci berbentuk bulat",
         "pylox",
         "stiker"
+      ],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Lubangi bagian tengah tutup kaleng dengan menggunakan paku",
+        "Pasang tarikan laci pada tutup kaleng yang telah dilubangi",
+        "Pylox semua bagian luar kaleng dengan warna putih",
+        "Cat tutup kaleng sesuai dengan selera",
+        "Hias kaleng dengan stiker"
+      ]
+    },
+    {
+      "judul": "Gelas",
+      "link": "https://www.youtube.com/watch?v=8qmtl8_jUDE",
+      "bahan": ["kaleng bekas", "cutter", "spidol", "amplas"],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Siapkan 2 buah kaleng bekas",
+        "Buang label kemasan kedua kaleng",
+        "Lepas tutup kaleng 1 dengan cara diamplas",
+        "Potong kaleng 2 menjadi 2 bagian besar (atas dan bawah) dan 1 bagian kecil (tengah)",
+        "Bagian tengah kaleng 2 ditempelkan pada kaleng 1 sebagai pegangan gelas",
+        "Rapikan bagian bawah kaleng 2 dan ambil bagian alas untuk dijadikan tutup gelas",
+        "Buat pegangan tutup gelas dengan menggunakan sisa potongan bagian bawah kaleng 2"
+      ]
+    },
+    {
+      "judul": "Vas Bunga Plastik",
+      "link": "https://www.youtube.com/watch?v=G8LmW2MxWwc",
+      "bahan": [
+        "kaleng bekas",
+        "sedotan plastik bekas",
+        "kardus bekas",
+        "pita",
+        "busa glitter",
+        "selotip kertas",
+        "lem tembak"
+      ],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Potong bagian atas tutup kaleng",
+        "Tempelkan selotip kertas pada bekas potongan",
+        "Potong sedotan plastik dengan melebihkan sedikit dari tinggi kaleng",
+        "Tempelkan sedotan pada bagian luar kaleng dengan menggunakan lem tembak",
+        "Potong kardus bekas membentuk lingkaran dengan diameter lebih besar dari kaleng",
+        "Tempelkan sedotan pada kardus kemudian potong sesuai ukuran kardus",
+        "Tempelkan pita pada bagian atas dan bawah kaleng serta tepi kardus sebagai hiasan",
+        "Potong busa glitter membentuk hati kemudian tempelkan pada kaleng",
+        "Tempelkan kaleng ke kardus sehingga kardus akan menjadi alas"
       ]
     }
   ]

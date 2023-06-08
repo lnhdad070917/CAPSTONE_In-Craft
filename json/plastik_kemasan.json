@@ -3,44 +3,101 @@
   "jenis": "Plastik Kemasan",
   "link": [
     {
-      "url": "https://www.youtube.com/watch?v=MJd3bo_XRaU",
       "judul": "Tempat pensil",
-      "bahan": ["plastik kemasan", "resleting", "lem tembak", "gunting"]
+      "link": "https://www.youtube.com/watch?v=MJd3bo_XRaU",
+      "bahan": [
+        "plastik kemasan",
+        "resleting",
+        "lem tembak",
+        "gunting",
+        "cutter",
+        "masking tape"
+      ],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Potong persegi panjang plastik kemasan",
+        "Lipat simetri kemudian potong menjadi dua persegi",
+        "Ambil bagian lain, kemudian potong memanjang dengan cutter menjadi 2 bagian",
+        "Tempelkan kedua bagian tersebut ke resleting dengan lem tembak",
+        "Rapikan ujungnya dengan masking tape",
+        "Tempelkan 2 bagian persegi ke bagian plastik yang sudah menempel dengan resleting dengan lem tembak",
+        "Tempelkan ujung dari setiap sudut plastik dengan lem tembak hingga rapi dan tertutup semua",
+        "Lapisi bagian bawah dengan bagian plastik lain, rekatkan dengan lem tembak",
+        "Tambahkan hiasan gantungan di bagian sisi ujung tempat pensil"
+      ]
     },
     {
-      "url": "https://www.youtube.com/watch?v=Rx0rDtX89gw",
       "judul": "Tempat pensil",
+      "link": "https://www.youtube.com/watch?v=Rx0rDtX89gw",
       "bahan": [
         "plastik kemasan",
         "kertas",
         "setrika",
         "lem tembak",
         "resleting"
+      ],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Siapkan 4 plastik kemasan mie, gunting dan rapikan bagian belakangnya",
+        "Letakkan 1 plastik kemasan di atas kertas, kemudian letakkan kertas lain di atasnya",
+        "Setrika dengan panas yang rendah",
+        "Lakukan hal yang sama pada keempat plastik kemasan",
+        "Gunting pinggiran masing-masing plastik kemasan",
+        "Lem salah satu sisi pendek plastik kemasan dan satukan dengan 1 plastik kemasan lainnya",
+        "Lem juga bagian belakang agar lebih kuat",
+        "Lakukan hal yang sama untuk 2 plastik kemasan lainnya",
+        "Satukan plastik kemasan tersebut dengan cara lem pada sisi panjang dengan arah yang berlawanan",
+        "Lem juga bagian belakang agar lebih kuat",
+        "Tempelkan resleting di sisi atas plastik kemasan dengan kepala resleting menghadap kebawah",
+        "Tekuk plastik kemasan dan tempelkan resleting pada sisi sebrangnya",
+        "Lem bagian sisi-sisinya",
+        "Balik plastik kemasan tersebut agar kepala resleting berada di luar"
       ]
     },
     {
-      "url": "https://www.youtube.com/watch?v=DSCBv8GeCc8",
-      "judul": "Dompet koin",
-      "bahan": ["plastik kemasan", "benang", "jarum", "gunting", "resleting"]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=ak-mNbGjrOU",
       "judul": "Keranjang buah",
-      "bahan": ["plastik kemasan", "gunting", "penggaris", "benang", "jarum"]
+      "link": "https://www.youtube.com/watch?v=ak-mNbGjrOU",
+      "bahan": ["plastik kemasan", "gunting", "penggaris", "benang", "jarum"],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Gunting bungkus kopi berukuran 8.5 x 5 cm",
+        "Lipat menjadi tiga, keluarkan lipatan, kemudian bentuk menjadi ring",
+        "Lipat simetri menjadi dua",
+        "Lakukan step berulang kali hingga didapat jumlah yang diinginkan",
+        "Kaitkan pola satu dengan yang lain, lakukan berulang kali hingga membentuk pola keranjang",
+        "Susun, sambungkan, dan rapikan dengan bantuan gunting",
+        "Jahit bagian yang perlu agar keranjang terkesat kuat"
+      ]
     },
     {
-      "url": "https://www.youtube.com/watch?v=ik4k6oXJr84",
       "judul": "Sajadah",
-      "bahan": ["plastik kemasan", "gunting"]
+      "link": "https://www.youtube.com/watch?v=ik4k6oXJr84",
+      "bahan": ["plastik kemasan", "gunting"],
+      "langkah": [
+        "Siapkan alat bahan",
+        "Gunting simetris menjadi 2 bagian",
+        "Lipat menjadi tiga, keluarkan lipatan, kemudian bentuk menjadi ring",
+        "Lipat simetri menjadi dua",
+        "Lakukan step berulang kali hingga didapat jumlah yang diinginkan",
+        "Kaitkan pola satu dengan yang lain, lakukan berulang kali hingga membentuk pola sajadah"
+      ]
     },
     {
-      "url": "https://www.youtube.com/watch?v=CeSFSQZ3W3g",
       "judul": "Tikar",
-      "bahan": ["plastik kemasan", "gunting"]
+      "link": "https://www.youtube.com/watch?v=CeSFSQZ3W3g",
+      "bahan": ["plastik kemasan", "gunting"],
+      "langkah": [
+        "Siapkan alat bahan",
+        "Gunting simetris menjadi 2 bagian",
+        "Lipat menjadi tiga, keluarkan lipatan, kemudian bentuk menjadi ring",
+        "Lipat simetri menjadi dua",
+        "Lakukan step berulang kali hingga didapat jumlah yang diinginkan",
+        "Kaitkan pola satu dengan yang lain, lakukan berulang kali hingga membentuk pola tikar"
+      ]
     },
     {
-      "url": "https://www.youtube.com/watch?v=iTiAkz0A6eg",
       "judul": "Tas kecil",
+      "link": "https://www.youtube.com/watch?v=iTiAkz0A6eg",
       "bahan": [
         "plastik kemasan",
         "gunting",
@@ -48,12 +105,46 @@
         "lem tembak",
         "benang",
         "jarum"
+      ],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Lipat menjadi tiga, keluarkan lipatan, kemudian bentuk menjadi ring",
+        "Lipat simetri menjadi dua",
+        "Lakukan step berulang kali hingga didapat jumlah yang diinginkan",
+        "Kaitkan pola satu dengan yang lain, lakukan berulang kali hingga membentuk pola tas kecil dan gantungannya",
+        "Pasang resleting dengan cara jahit di permukaan atas tas"
       ]
     },
     {
-      "url": "https://www.youtube.com/watch?v=jLNWKNPP_k0",
       "judul": "Tas pundak",
-      "bahan": ["plastik kemasan", "gunting", "resleting", "kain", "lem tembak"]
+      "link": "https://www.youtube.com/watch?v=jLNWKNPP_k0",
+      "bahan": [
+        "plastik kemasan",
+        "gunting",
+        "resleting",
+        "kain",
+        "lem tembak"
+      ],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Lipat menjadi tiga, keluarkan lipatan, kemudian bentuk menjadi ring",
+        "Lipat simetri menjadi dua",
+        "Lakukan step berulang kali hingga didapat jumlah yang diinginkan",
+        "Kaitkan pola satu dengan yang lain, lakukan berulang kali hingga membentuk pola tas kecil dan gantungannya",
+        "Pasang resleting dengan cara jahit di permukaan atas tas"
+      ]
+    },
+    {
+      "judul": "Kotak tisu",
+      "link": "https://www.youtube.com/watch?v=VJEqCdkN_hA",
+      "bahan": ["plastik kemasan", "gunting"],
+      "langkah": [
+        "Siapkan alat dan bahan",
+        "Lipat menjadi tiga, keluarkan lipatan, kemudian bentuk menjadi ring",
+        "Lipat simetri menjadi dua",
+        "Lakukan step berulang kali hingga didapat jumlah yang diinginkan",
+        "Kaitkan pola satu dengan yang lain, lakukan berulang kali hingga membentuk pola kotak tissue"
+      ]
     }
   ]
 }
