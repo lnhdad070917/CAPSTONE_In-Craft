@@ -45,19 +45,19 @@ ___
 ```
 docker build -t <image-name> .
 ``` 
-Replace <image-name> with a suitable name for your Docker image.
+   Replace <image-name> with a suitable name for your Docker image.
   
 2. Tag the Docker image: Before pushing the Docker image to a container registry on GCP, you need to tag it with the registry's URL. GCP provides a container registry called Google Container Registry (GCR). Tag your image using the following command:
 ```
 docker tag <image-name> gcr.io/<project-id>/<image-name>
 ``` 
-Replace <project-id> with your GCP project ID, and <image-name> with the same name you used in step 1.
+   Replace <project-id> with your GCP project ID, and <image-name> with the same name you used in step 1.
   
 3. Push the Docker image to GCR: To push the Docker image to GCR, run the following command:
 ```
 docker push gcr.io/<project-id>/<image-name>
 ```
-This command will upload your Docker image to the container registry associated with your GCP project.
+   This command will upload your Docker image to the container registry associated with your GCP project.
 
 4. Deploy the Docker container: Once your Docker image is in the GCR, you can deploy it to GCP. There are multiple options available depending on your use case. Here, we'll use Cloud Run to deploy the container to your cluster. Run the following command to deploy the container:
 ```
