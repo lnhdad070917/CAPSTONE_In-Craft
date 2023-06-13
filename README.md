@@ -59,7 +59,7 @@ docker push gcr.io/<project-id>/<image-name>
 ```
 This command will upload your Docker image to the container registry associated with your GCP project.
 
-4. Deploy the Docker container: Once your Docker image is in the GCR, you can deploy it to GCP. There are multiple options available depending on your use case. Here, we'll use Cloud Run to deploy the container to your cluster. Run the following command to deploy the container:
+4. Deploy the Docker container: Once your Docker image is in the GCR, you can deploy it to GCP. There are multiple options available depending on your use case. Here, we'll use Cloud Run to deploy the container. Run the following command to deploy the container:
 ```
 gcloud run deploy --image gcr.io/<project-id>/<image-name> --platform managed
 ```
