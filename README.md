@@ -44,9 +44,12 @@ https://github.com/lnhdad070917/CAPSTONE_In-Craft.git
 npm install
 ```
 3. Make sure you have Node.js and npm installed on your computer.
+
 4. Obtain the service account key from Firebase and save it as '**serviceAccountKey.json**' in the root directory of the application.
-6. Make sure you have Python and pip installed on your computer.
-7. Install the Python dependencies by running the following command:
+
+5. Make sure you have Python and pip installed on your computer.
+
+6. Install the Python dependencies by running the following command:
 ```
 pip install -r requirements.txt
 ```
