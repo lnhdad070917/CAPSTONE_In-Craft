@@ -174,6 +174,7 @@ app.get("/kelas", async (req, res) => {
           bahan: linkData.bahan,
           judul: linkData.judul,
           url: linkData.url,
+          langkah: linkData.langkah,
         }));
 
         matchedData.push({
