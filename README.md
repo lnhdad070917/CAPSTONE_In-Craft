@@ -7,7 +7,7 @@ Humankind has gained a great deal of flexibility because of inorganic waste. On 
 
 1. To begin, open the Android Studio application on your computer. Once launched, navigate to the menu bar and locate the "File" option. Click on it, and from the dropdown menu, select "New," followed by "Project From Version Control."
 
-2. In order to import the desired project from GitHub, retrieve the GitHub repository's URL, which should be in the format https://github.com/lnhdad070917/CAPSTONE_In-Craft.git. Copy the provided GitHub URL, then return to Android Studio. Within the "New Project From Version Control" window, find the designated field and paste the GitHub URL you just copied. Additionally, choose the directory where you wish to save this project on your local machine.
+2. In order to import the desired project from GitHub, retrieve the GitHub repository's URL, which should be in the format "https://github.com/rendiano12/CAPSTONE_Inorganic_Waste_Crafting_App.git". Copy the provided GitHub URL, then return to Android Studio. Within the "New Project From Version Control" window, find the designated field and paste the GitHub URL you just copied. Additionally, choose the directory where you wish to save this project on your local machine.
 
 3. After successfully completing the previous step, you should now have the project directory imported into Android Studio. Navigate to the location where you saved the project from GitHub, then open the corresponding directory within Android Studio. At this point, Android Studio will automatically initiate the process of building the Gradle files, streamlining the setup procedure and configuring the necessary dependencies for your project.
 
